@@ -4,7 +4,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './home/Home'
-import Login from './login/Login'
+import Login from './Ecommerce-App/Login'
 import Register from './register/Register'
 import Categories from './categories/Categories'
 import Brand from './brand/Brand'
