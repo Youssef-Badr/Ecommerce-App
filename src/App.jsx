@@ -5,7 +5,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './home/Home'
-import Login from './Ecommerce-App/Login'
+import Login from './Ecommerce-App//Login'
 import Register from './register/Register'
 import Categories from './categories/Categories'
 import Brand from './brand/Brand'
@@ -28,7 +28,7 @@ export default function App() {
  let routes = createBrowserRouter([{
     path:'/',element:<Layout></Layout>,children:[
       {index:true,element:<Home></Home>},
-      {path:'/login',element:<Login></Login>},
+      {path:'/Ecommerce-App/',element:<Login></Login>},
       {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
       {path:'/verifyreset',element:<VerifyReset></VerifyReset>},
       {path:'/resetpass',element:<Resetpass></Resetpass>},
