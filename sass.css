@@ -1,0 +1,92 @@
+p, .parent {
+  color: red;
+}
+
+.parent {
+  font-size: 13px;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.bg-danger {
+  background-color: red;
+}
+
+.text-danger {
+  color: red;
+}
+
+.bg-info {
+  background-color: #09c;
+}
+
+.text-info {
+  color: #09c;
+}
+
+.child-1 {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.child-2 {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+
+.child-3 {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+.child-4 {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+.child-5 {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.child-6 {
+  background-color: rgba(255, 255, 0, 0.6);
+}
+
+.child-7 {
+  background-color: rgba(255, 255, 0, 0.7);
+}
+
+.child-8 {
+  background-color: rgba(255, 255, 0, 0.8);
+}
+
+.child-9 {
+  background-color: rgba(255, 255, 0, 0.9);
+}
+
+.child-10 {
+  background-color: yellow;
+}
+
+button.primary {
+  display: block;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+button.info {
+  display: block;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=sass.css.map */

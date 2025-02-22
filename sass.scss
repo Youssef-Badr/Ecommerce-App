@@ -1,0 +1,78 @@
+@import './colors';
+
+$main-color: red;
+
+p {
+  color: $main-color;
+}
+
+.parent {
+  @extend p;
+  font-size: 13px;
+}
+
+
+
+//each 
+
+@each $key,$value in $colors {
+  .bg-#{$key}{
+    background-color: $value;
+  }
+  .text-#{$key} {
+    color: $value;
+  }
+
+}
+
+// for
+
+@for $i from 1 to 11 {
+  .child-#{$i}{
+    background-color: rgba($color: yellow, $alpha: $i/10);
+  }
+}
+
+
+// mixin , include 
+
+@mixin button($brdr,$padding) {
+  display: block;
+  border-radius: $brdr;
+  padding: $padding;
+}
+
+button.primary {
+  @include button(50%,20px )
+}
+button.info {
+  @include button(50%,40px )
+}
+
+// function
+
+@function convertToFS($FS) {
+  @return $FS/16 ;
+}
+
+h1 {
+  font-size:convertToFS(32rem) ;
+}
+
+// theme
+
+$theme:dark;
+
+@if $theme==light{
+body {
+  background-color: white;
+  color: black;
+}
+}
+
+@else if $theme==dark {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
