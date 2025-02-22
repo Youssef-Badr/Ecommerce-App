@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
@@ -17,6 +18,7 @@ export default function VerifyResetCode() {
     }),
     onSubmit: async (values) => {
       try {
+        // eslint-disable-next-line no-unused-vars
         const { data } = await axios.post(
           "https://ecommerce.routemisr.com/api/v1/auth/verifyResetCode",
           values
