@@ -23,13 +23,13 @@ import VerifyReset from './verifyreset/VerifyReset';
 import Changepass from './changepass/Changepass';
 import UpdateData from './updatedata/UpdateData';
 import Resetpass from './resetpass/Resetpass';
-import EcommerceApp from './Ecommerce-App/EcommerceApp';
+// import EcommerceApp from './Ecommerce-App/EcommerceApp';
 
 export default function App() {
  let routes = createBrowserRouter([{
     path:'/',element:<Layout></Layout>,children:[
-      {index:true,element:<EcommerceApp></EcommerceApp>},
-      {path:'/home',element:<Home></Home>},
+      {index:true,element:<Home></Home>},
+      // {path:'/home',element:<Home></Home>},
       {path:'/login',element:<Login></Login>},
       {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
       {path:'/verifyreset',element:<VerifyReset></VerifyReset>},
