@@ -26,24 +26,24 @@ import Resetpass from './resetpass/Resetpass';
 
 export default function App() {
  let routes = createBrowserRouter([{
-    path:'/',element:<Layout></Layout>,children:[
+    path:'/Ecommerce-App',element:<Layout></Layout>,children:[
       {index:true,element:<Home></Home>},
-      {path:'/login',element:<Login></Login>},
-      {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
-      {path:'/verifyreset',element:<VerifyReset></VerifyReset>},
-      {path:'/resetpass',element:<Resetpass></Resetpass>},
-      {path:'/changepass',element:<Changepass></Changepass>},
-      {path:'/updatedata',element:<UpdateData></UpdateData>},
-      {path:'/register',element:<Register></Register>},
-      {path:'/cart',element:<ProtectedRoute><Cart></Cart></ProtectedRoute>},
-      {path:'/categories',element:<Categories></Categories>},
-      {path:'/navbar',element:<Navbar></Navbar>},
-      {path:'/loading',element:<Loading></Loading>},
-      {path:'/brand',element:<Brand></Brand>},
-      {path:'/product',element:<Product></Product>},
-      {path:'/allorders',element:<Orders></Orders>},
-      {path:'/whitlist',element:<Whitelist></Whitelist>},
-      {path:'/productdetails/:id/:catId',element:<ProductDetails></ProductDetails>},
+      {path:'login',element:<Login></Login>},
+      {path:'forgetpass',element:<ForgetPass></ForgetPass>},
+      {path:'verifyreset',element:<VerifyReset></VerifyReset>},
+      {path:'resetpass',element:<Resetpass></Resetpass>},
+      {path:'changepass',element:<Changepass></Changepass>},
+      {path:'updatedata',element:<UpdateData></UpdateData>},
+      {path:'register',element:<Register></Register>},
+      {path:'cart',element:<ProtectedRoute><Cart></Cart></ProtectedRoute>},
+      {path:'categories',element:<Categories></Categories>},
+      {path:'navbar',element:<Navbar></Navbar>},
+      {path:'loading',element:<Loading></Loading>},
+      {path:'brand',element:<Brand></Brand>},
+      {path:'product',element:<Product></Product>},
+      {path:'allorders',element:<Orders></Orders>},
+      {path:'whitlist',element:<Whitelist></Whitelist>},
+      {path:'productdetails/:id/:catId',element:<ProductDetails></ProductDetails>},
       {path:'*',element:<Notfound></Notfound>},
 
 
