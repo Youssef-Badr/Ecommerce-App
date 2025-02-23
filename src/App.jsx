@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react'
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './home/Home'
 import Login from './login/Login'
@@ -30,7 +30,7 @@ export default function App() {
  let routes = createBrowserRouter([{
    
     path:'/Ecommerce-App',element:<Layout></Layout>,children:[
-      {index:true,element:<Navigate to="/Ecommerce-App/home" replace />},
+      {index:true,element:<Navigate to="/home" replace />},
     //  { path:'/Ecommerce-App',element:<Login></Login>},
       {path:'/Ecommerce-App/login',element:<Login></Login>},
       {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
