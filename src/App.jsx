@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-no-undef */
 import React from 'react'
@@ -27,6 +28,7 @@ import Resetpass from './resetpass/Resetpass';
 
 export default function App() {
  let routes = createBrowserRouter([{
+    path:'/Ecommerce-App/',element:<Login></Login>,
     path:'/',element:<Layout></Layout>,children:[
       {index:true,element:<Home></Home>},
       // {path:'/home',element:<Home></Home>},
