@@ -30,7 +30,7 @@ export default function App() {
  let routes = createBrowserRouter([{
    
     path:'/Ecommerce-App',element:<Layout></Layout>,children:[
-      {index:true,element:<Home></Home>},
+      {index:true,element:<Navigate to="/Ecommerce-App/home" replace />},
     //  { path:'/Ecommerce-App',element:<Login></Login>},
       {path:'/Ecommerce-App/login',element:<Login></Login>},
       {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
