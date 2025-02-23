@@ -28,10 +28,10 @@ import Resetpass from './resetpass/Resetpass';
 
 export default function App() {
  let routes = createBrowserRouter([{
-    path:'/Ecommerce-App/',element:<Login></Login>,
+   
     path:'/',element:<Layout></Layout>,children:[
-      {index:true,element:<Home></Home>},
-      // {path:'/home',element:<Home></Home>},
+      {index:'/home',element:<Home></Home>},
+     { path:'/Ecommerce-App/',element:<Login></Login>},
       {path:'/login',element:<Login></Login>},
       {path:'/forgetpass',element:<ForgetPass></ForgetPass>},
       {path:'/verifyreset',element:<VerifyReset></VerifyReset>},
