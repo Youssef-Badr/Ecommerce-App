@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { Link } from "react-router-dom";
 
 export default function ForgetPassword() {
   const [message, setMessage] = useState("");
@@ -58,7 +59,7 @@ export default function ForgetPassword() {
           Send Reset Link
         </button>
         <p className="text-center">
-  Entered your email? <a href="/verifyreset" className="text-green-500">Verify Reset Code</a>
+  Entered your email? <Link to="/verifyreset" className="text-green-500">Verify Reset Code</Link>
 </p>
 
       </form>

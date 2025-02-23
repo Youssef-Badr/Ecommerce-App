@@ -17,6 +17,12 @@ export default function Notfound() {
         >
           Go to Login
         </Link>
+        <Link
+          to="/register"
+          className="mt-6 px-6 py-3  dark:bg-black dark:text-white bg-green-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-300"
+        >
+          Go to Register
+        </Link>
       </div>
     </div>
   );
