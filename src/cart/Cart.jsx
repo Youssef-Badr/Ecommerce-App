@@ -33,6 +33,7 @@ useEffect(() => {
 if(!data?.data?.numOfCartItems) {
   return <div className='flex justify-center items-center h-screen'>
     <img src={img} className='w-40' alt=""  />
+    
   </div>} 
 
  
