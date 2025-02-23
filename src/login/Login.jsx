@@ -3,7 +3,7 @@
 import axios from "axios";
 import { useFormik } from "formik";
 import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import { userToken } from "../context/UserToken";
 export default function Login() {
@@ -131,10 +131,10 @@ export default function Login() {
             Password
           </label>
           <p className="text-center text-gray-600 mt-4">
-  Forgot Your Password? <a href="/forgetpass" className="text-green-500 hover:underline">Reset here</a>
+  Forgot Your Password? <Link to="/forgetpass" className="text-green-500 hover:underline">Reset here</Link>
 </p>
           <p className="text-center text-gray-600 mt-4">
-  Change Your Password? <a href="/changepass" className="text-green-500 hover:underline">Click here</a>
+  Change Your Password? <Link to="/changepass" className="text-green-500 hover:underline">Click here</Link>
 </p>
 
         </div>
