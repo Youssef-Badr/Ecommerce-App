@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react'
 import './index.css';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './home/Home'
 import Login from './login/Login'
