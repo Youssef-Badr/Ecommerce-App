@@ -9,7 +9,7 @@ export default function Notfound() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800  dark:bg-black dark:text-white">
           Welcome Dear,{" "}
           <br className="sm:hidden  dark:bg-black dark:text-white" /> Please Go
-          To Login Page
+          For My OnlineShopping
         </h1>
         <Link
           to="/login"
