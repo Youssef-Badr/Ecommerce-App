@@ -1,4 +1,6 @@
 # React + Vite
+https://ecommerce-app-iota-one.vercel.app/  ------- On Vercel
+ https://youssef-badr.github.io/Ecommerce-App/  ---- On Github 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
